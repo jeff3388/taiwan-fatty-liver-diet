@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Taiwan Fatty Liver Diet Schema",
+  "definitions": {
+    "LiverFriendlyFood": {
+      "type": "object",
+      "required": ["id", "name_zh", "benefit_level", "evidence_grade", "source"],
+      "properties": {
+        "id": { "type": "string" },
+        "name_zh": { "type": "string" },
+        "category": { "type": "string" },
+        "benefit_level": { "type": "string", "enum": ["strong", "moderate", "mild"] },
+        "evidence_grade": { "type": "string", "enum": ["A", "B", "C"] },
+        "mechanism_zh": { "type": "string" },
+        "dose_recommendation_zh": { "type": "string" },
+        "source": { "type": "string" }
+      }
+    },
+    "FoodToLimit": {
+      "type": "object",
+      "required": ["id", "name_zh", "restriction_level", "source"],
+      "properties": {
+        "id": { "type": "string" },
+        "name_zh": { "type": "string" },
+        "restriction_level": { "type": "string", "enum": ["avoid", "reduce", "monitor"] },
+        "mechanism_zh": { "type": "string" },
+        "source": { "type": "string" }
+      }
+    }
+  }
+}

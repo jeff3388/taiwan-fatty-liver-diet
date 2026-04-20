@@ -1,0 +1,89 @@
+[
+  {
+    "id": "fructose-beverages",
+    "name_zh": "含糖飲料（手搖飲、果汁、汽水）",
+    "category": "beverage",
+    "restriction_level": "avoid",
+    "mechanism_zh": "果糖（fructose）進入肝臟後，幾乎完全在肝臟代謝，直接轉化為三酸甘油酯（de novo lipogenesis）。長期高果糖攝取是 NAFLD 的主要驅動因素，效果類似酒精性脂肪肝的形成機制",
+    "taiwan_examples_zh": [
+      "全糖珍珠奶茶（700ml）：糖約 80–100g，果糖約 40–50g",
+      "含糖綠茶（500ml）：糖約 30–40g",
+      "市售果汁（240ml）：糖約 25–30g（果糖約 12–15g）",
+      "可樂（330ml）：糖約 35g（高果糖玉米糖漿）"
+    ],
+    "risk_data_zh": "每日喝 1 罐含糖飲料者 NAFLD 風險增加 56%；每日 > 2 罐風險增加 2 倍（Ma J et al. 2015）",
+    "taiwan_context_zh": "台灣手搖飲文化盛行，每年茶飲市場規模超過千億元。台灣 NAFLD 盛行率與手搖飲消費量增加趨勢一致",
+    "alternatives_zh": "無糖茶（綠茶、烏龍茶）、黑咖啡、氣泡水加檸檬片",
+    "source": "Ma J et al. (2015) J Hepatol. PMID: 25727155；Chiu S et al. (2014) PMID: 24748424",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "refined-carbohydrates",
+    "name_zh": "精製碳水化合物（白米、白麵包、麵條）",
+    "category": "grain-refined",
+    "restriction_level": "reduce",
+    "mechanism_zh": "高升糖指數碳水化合物快速升高血糖和胰島素。胰島素升高激活 SREBP-1c（固醇調節元件結合蛋白），促進肝臟脂肪合成。長期高碳水飲食是 NAFLD 惡化的重要因素",
+    "taiwan_examples_zh": [
+      "白米稀飯（粥）：GI=78，升糖效果比白飯更強",
+      "白麵條（湯麵）：GI=82",
+      "白吐司：GI=75",
+      "台灣傳統早餐（燒餅油條 + 白飯）：精製澱粉密度高"
+    ],
+    "recommended_swaps_zh": [
+      "白米 → 糙米（GI 55）或糙米白米混合",
+      "白麵條 → 蕎麥麵（GI 50）或全麥麵",
+      "白吐司 → 全麥吐司（GI 55）",
+      "米飯份量減少 30%，增加蔬菜和蛋白質比例"
+    ],
+    "source": "Romero-Gómez M et al. (2017) J Hepatol. PMID: 28427845",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "saturated-fat",
+    "name_zh": "飽和脂肪（五花肉、油炸食物、椰子油）",
+    "category": "fat-saturated",
+    "restriction_level": "reduce",
+    "mechanism_zh": "飽和脂肪激活 TLR4（Toll-like receptor 4）通路，引發肝臟發炎（NASH），促進 NAFLD 進展至肝炎和肝纖維化。同時降低胰島素敏感性",
+    "taiwan_examples_zh": [
+      "五花肉（100g）：飽和脂肪約 15g",
+      "炸雞排（一份 200g）：飽和脂肪約 10–15g",
+      "豬油炒飯（台灣傳統）：每份飽和脂肪 8–12g",
+      "鹹酥雞（100g）：飽和脂肪約 8g",
+      "珍珠奶茶（含全脂奶精）：飽和脂肪約 6–10g"
+    ],
+    "recommended_limit_zh": "每日飽和脂肪 < 10% 總熱量（約 22g/2000 kcal 飲食）",
+    "alternatives_zh": "豬里肌替代五花肉、清蒸替代油炸、橄欖油替代豬油",
+    "source": "Chalasani N et al. (2018) Hepatology. PMID: 28714183（NAFLD 診治指引）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "alcohol",
+    "name_zh": "酒精（各類含酒精飲料）",
+    "category": "alcohol",
+    "restriction_level": "avoid",
+    "mechanism_zh": "酒精在肝臟代謝產生乙醛（acetaldehyde），直接損害肝細胞，增加氧化壓力，促進肝臟脂肪蓄積和發炎（NASH）。NAFLD 患者飲酒會加速進展至肝纖維化和肝硬化",
+    "nafld_specific_note_zh": "NAFLD 患者即使少量飲酒也可能加速病情進展。目前多數指引建議 NAFLD 患者完全戒酒（或每日 < 10g 純酒精）",
+    "taiwan_examples_zh": [
+      "啤酒（350ml）：純酒精約 14g",
+      "台灣啤酒（金牌，330ml）：純酒精約 13g",
+      "米酒（30ml）：純酒精約 10g",
+      "紅酒（150ml）：純酒精約 18g"
+    ],
+    "source": "Thursz M et al. (2018) J Hepatol. PMID: 29681537；EASL 2018 NAFLD 指引",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "processed-meat",
+    "name_zh": "加工肉品（香腸、培根、熱狗、肉鬆）",
+    "category": "processed-food",
+    "restriction_level": "reduce",
+    "mechanism_zh": "加工肉品含有亞硝酸鹽、高鈉、飽和脂肪，加工過程中的 AGEs（晚期糖基化終產物）促進肝臟氧化壓力和發炎",
+    "taiwan_examples_zh": [
+      "台灣香腸（一條約 60g）：飽和脂肪 7g、鈉 600mg",
+      "培根（30g）：飽和脂肪 4g、鈉 400mg",
+      "肉鬆（一湯匙 15g）：鈉約 200mg、糖約 3g"
+    ],
+    "source": "Zelber-Sagi S et al. (2017) Liver Int. PMID: 28074613（飲食模式與 NAFLD）",
+    "_meta": { "last_updated": "2026-04-16" }
+  }
+]

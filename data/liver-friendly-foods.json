@@ -1,0 +1,110 @@
+[
+  {
+    "id": "coffee",
+    "name_zh": "咖啡（黑咖啡，無糖）",
+    "name_en": "Coffee, black unsweetened",
+    "category": "beverage",
+    "benefit_level": "strong",
+    "evidence_grade": "A",
+    "mechanism_zh": "咖啡含有綠原酸（chlorogenic acid）等多酚，抑制肝臟脂肪合成（de novo lipogenesis）、降低肝纖維化標記（ALT、AST），並具有抗纖維化效果。無論含咖啡因或無咖啡因均有保護效果",
+    "dose_recommendation_zh": "每日 2–3 杯黑咖啡（每杯 240ml）。研究顯示每日 > 2 杯者肝臟脂肪含量顯著較低，肝硬化風險降低 40–57%",
+    "taiwan_practical_zh": "台灣咖啡文化普及，超商（7-11、全家）黑咖啡每杯約 35–55 元，路易莎、cama 連鎖均有。選無糖版，加奶需選少量",
+    "source": "Kennedy OJ et al. (2016) BMJ Open. PMID: 26940141；Wijarnpreecha K et al. (2017) PMID: 27823650",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "broccoli",
+    "name_zh": "青花菜（綠花椰）",
+    "name_en": "Broccoli",
+    "category": "cruciferous-vegetable",
+    "benefit_level": "strong",
+    "evidence_grade": "B",
+    "mechanism_zh": "含蘿蔔硫素（sulforaphane），激活 Nrf2 通路，增強肝臟解毒酶活性，抑制肝臟脂肪堆積和氧化壓力。動物研究顯示青花菜可減少高脂飲食誘導的肝臟脂肪蓄積",
+    "dose_recommendation_zh": "每日 100–200g（1–2 份），生食或輕炒保留最多活性成分",
+    "taiwan_practical_zh": "台灣全年有售，傳統市場每把約 30–50 元。超商熟食區有汆燙青花菜，方便外食族",
+    "source": "Tian S et al. (2016) J Nutr Biochem. PMID: 27343977",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "garlic",
+    "name_zh": "大蒜",
+    "name_en": "Garlic",
+    "category": "allium-vegetable",
+    "benefit_level": "moderate",
+    "evidence_grade": "B",
+    "mechanism_zh": "大蒜素（allicin）及相關含硫化合物具有抗發炎、降低 TNF-α 和 IL-6 的效果。RCT 研究顯示大蒜補充劑可顯著降低 NAFLD 患者的 ALT、AST 和肝臟脂肪評分",
+    "dose_recommendation_zh": "每日 2–3 瓣生大蒜或等量熟大蒜。料理中添加大蒜不只提味，也有保護效果",
+    "taiwan_practical_zh": "台灣料理中大蒜極為普遍，台灣大蒜品質佳。生食效果優於熟食（加熱部分破壞大蒜素）",
+    "source": "Mirhafez SR et al. (2016) Eur J Clin Nutr. PMID: 27189589",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "omega3-fish",
+    "name_zh": "Omega-3 豐富魚類（鯖魚、秋刀魚、鮭魚）",
+    "name_en": "Omega-3 rich fish",
+    "category": "seafood",
+    "benefit_level": "strong",
+    "evidence_grade": "A",
+    "mechanism_zh": "EPA 和 DHA 抑制肝臟 SREBP-1c（脂肪合成主要調控因子），同時激活 PPAR-α（脂肪氧化路徑）。系統性回顧（RCT）顯示 Omega-3 補充可顯著降低肝臟脂肪含量和 ALT",
+    "dose_recommendation_zh": "每週 2–3 次深海魚，每次 120–150g。或每日補充 EPA+DHA 1000–2000mg（魚油補充劑）",
+    "taiwan_foods_zh": [
+      "鯖魚（烤）：EPA+DHA 約 2600mg/120g，台灣超市有售",
+      "秋刀魚（烤）：EPA+DHA 約 2100mg/100g，台灣傳統市場常見",
+      "鮭魚（清蒸）：EPA+DHA 約 1800mg/100g，台灣超市進口冷凍"
+    ],
+    "source": "Yan J et al. (2018) Liver Int. PMID: 28639341（系統性回顧）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "green-tea",
+    "name_zh": "綠茶（無糖）",
+    "name_en": "Green tea, unsweetened",
+    "category": "beverage",
+    "benefit_level": "moderate",
+    "evidence_grade": "B",
+    "mechanism_zh": "EGCG（表沒食子兒茶素沒食子酸酯）是主要活性成分，抑制肝臟脂肪合成，促進脂肪氧化，並具有抗發炎效果。台灣研究顯示習慣飲用綠茶者肝臟疾病風險較低",
+    "dose_recommendation_zh": "每日 2–4 杯無糖綠茶。茶包 vs 現泡差異不大，但超商加糖綠茶無效甚至有害",
+    "taiwan_practical_zh": "台灣茶文化深厚，高山烏龍茶、文山包種均含多酚。選無糖版本，超商茶飲改為茶包自泡可大幅降低糖分攝取",
+    "source": "Zhu J et al. (2018) Int J Clin Exp Med. PMID: 30026765（NAFLD 茶飲研究）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "walnut",
+    "name_zh": "核桃",
+    "name_en": "Walnuts",
+    "category": "nut",
+    "benefit_level": "moderate",
+    "evidence_grade": "B",
+    "mechanism_zh": "核桃富含 ALA（植物性 Omega-3）、多酚和維生素 E。地中海飲食 RCT 顯示核桃攝取與肝臟脂肪減少相關",
+    "dose_recommendation_zh": "每日 28–30g（約 7 顆核桃）",
+    "taiwan_practical_zh": "台灣超市、有機食品店均有售。建議選原味無鹽版本，避免蜂蜜核桃（高糖）",
+    "source": "PREDIMED trial（Estruch R et al. 2018）核桃子組分析",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "olive-oil",
+    "name_zh": "初榨橄欖油",
+    "name_en": "Extra virgin olive oil",
+    "category": "oil-fat",
+    "benefit_level": "strong",
+    "evidence_grade": "A",
+    "mechanism_zh": "富含油酸（oleic acid，單元不飽和脂肪）和多酚（oleocanthal），抑制 NF-κB 發炎通路，改善胰島素敏感性，減少肝臟脂肪蓄積",
+    "dose_recommendation_zh": "每日 2–3 湯匙（20–30ml），替代豬油、棕梠油或精製植物油",
+    "taiwan_practical_zh": "台灣超市（Costco、頂好）均有初榨橄欖油。炒菜選發煙點較高的精緻橄欖油（refine），涼拌和低溫料理選初榨（extra virgin）",
+    "source": "Romero-Gómez M et al. (2017) J Hepatol. PMID: 28427845（地中海飲食 NAFLD）",
+    "_meta": { "last_updated": "2026-04-16" }
+  },
+  {
+    "id": "oatmeal",
+    "name_zh": "燕麥粥（傳統燕麥片）",
+    "name_en": "Oatmeal, rolled oats",
+    "category": "whole-grain",
+    "benefit_level": "moderate",
+    "evidence_grade": "B",
+    "mechanism_zh": "Beta-葡聚糖（可溶性纖維）延緩腸道葡萄糖吸收，降低餐後血糖和胰島素峰值。胰島素下降減少肝臟脂肪合成（de novo lipogenesis）",
+    "dose_recommendation_zh": "每日 1 份（45g 乾燕麥），替代部分白米或白麵包",
+    "taiwan_practical_zh": "選傳統燕麥片（非即食包），GI 值較低（55 vs 即食 83）。加入牛奶或豆漿是台灣方便的早餐選項",
+    "source": "Abenavoli L et al. (2018) Nutrients. PMID: 30022266（膳食纖維 NAFLD）",
+    "_meta": { "last_updated": "2026-04-16" }
+  }
+]
